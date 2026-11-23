@@ -1,5 +1,0 @@
-{
-  "outputDirectory": "public",
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }],
-  "crons": [{ "path": "/api/cron/backup", "schedule": "0 3 * * *" }]
-}
