@@ -1,8 +1,0 @@
-{
-  "name": "secure-portal",
-  "version": "1.0.0",
-  "private": true,
-  "engines": { "node": ">=20" },
-  "scripts": { "start": "node --env-file=.env api/index.js", "restore": "node --env-file=.env restore.js" },
-  "dependencies": { "express": "^4.19.2", "firebase-admin": "^13.0.0", "qrcode": "^1.5.4" }
-}
